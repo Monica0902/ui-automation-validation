@@ -23,5 +23,12 @@ public class WaitHelper {
 		wait.until(ExpectedConditions.visibilityOf(element));
 		logger.info("element is visible..");
 	}
+
+	public void WaitForElementBtn(WebElement element, long timeOutInSeconds){
+		logger.info("waiting for button visibilityOf..");
+		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+		logger.info("button is visible..");
+	}
 	
 }

@@ -12,7 +12,6 @@ public class TestBase {
 
 	public  static WebDriver driver;
 
-	
 	public WebDriver selectBrowser(String browser) {
 		if (System.getProperty("os.name").toLowerCase().contains(OS.WINDOW.name().toLowerCase())) {
 			if (browser.equalsIgnoreCase(Browsers.CHROME.name())) {

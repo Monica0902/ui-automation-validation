@@ -1,1 +1,28 @@
-2025-02-10 01:02:595 INFO  ServiceHooks:34 - Login into the application is Failed
+2025-02-11 01:02:565 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:718 INFO  WaitHelper:24 - element is visible..
+2025-02-11 01:02:416 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:543 INFO  WaitHelper:24 - element is visible..
+2025-02-11 01:02:671 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:756 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:830 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:392 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:483 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:210 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:449 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:481 INFO  WaitHelper:24 - element is visible..
+2025-02-11 01:02:324 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:413 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:554 INFO  ServiceHooks:34 - Login into the application is Failed
+2025-02-11 01:02:456 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:583 INFO  WaitHelper:24 - element is visible..
+2025-02-11 01:02:233 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:400 INFO  WaitHelper:24 - element is visible..
+2025-02-11 01:02:610 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:718 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:286 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:405 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:484 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:954 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2025-02-11 01:02:363 INFO  WaitHelper:28 - waiting for button visibilityOf..
+2025-02-11 01:02:479 INFO  WaitHelper:31 - button is visible..
+2025-02-11 01:02:980 INFO  ServiceHooks:43 - Error message validation is pass
