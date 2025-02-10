@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1739129985620" stop="1739130001770" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1739129985684" stop="1739130001765" status="failed">
+            <name>Login into the application</name>
+            <title>Login into the application</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: expected [American Express - CARTE GOLD AMERICAN EXPRESS] but found [One App]</message>
+                <stack-trace>java.lang.AssertionError: expected [American Express - CARTE GOLD AMERICAN EXPRESS] but found [One App]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.ClickDemandezvotreCarte(LoginLogoutPage.java:132)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.iWillProceedToTheNextPageByClickingDemandezVotreCarte(loginLogoutPageStepDefinitions.java:40)
+	at ✽.And I will proceed to the next page by clicking Demandez votre Carte(src/test/resources/features/login/login_logout.feature:7)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1739129990393" stop="1739129992429" status="passed">
+                    <name>Given I am on the Login page URL "https://www.americanexpress.com/fr-fr/?inav=NavLogo"</name>
+                    <title>Given I am on the Login page URL "https://www.americanexpress.com/fr-fr/?inav=NavLogo"</title>
+                </step>
+                <step start="1739129992430" stop="1739129995200" status="passed">
+                    <name>When I click on the Cartes American Express link</name>
+                    <title>When I click on the Cartes American Express link</title>
+                </step>
+                <step start="1739129995200" stop="1739129997613" status="passed">
+                    <name>Then I will select the En savoir plus under Gold</name>
+                    <title>Then I will select the En savoir plus under Gold</title>
+                </step>
+                <step start="1739129997615" stop="1739130000520" status="failed">
+                    <name>And I will proceed to the next page by clicking Demandez votre Carte</name>
+                    <title>And I will proceed to the next page by clicking Demandez votre Carte</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="3d26c329-b64f-47bf-a57e-37be5e05d686-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Thara-s"/>
+                <label name="thread" value="26716@Thara-s.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
